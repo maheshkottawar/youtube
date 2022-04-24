@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Flexbox-prac</title>
+</head>
+<body>
+
+  <div style="
+    margin-top: 30px;
+    height: 60px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;" >
+     <div style="background-color: lightblue;
+     width: 100px;">
+     flex 1
+     </div> 
+     
+     <div style="background-color: rgb(230, 173, 203);
+     width: 100px;">
+     flex 2
+     </div>
+
+     <div style="background-color: rgb(173, 230, 176);
+     width: 100px;">
+     flex 3
+     </div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    height: 60px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;" >
+     <div style="background-color: lightblue;
+     width: 100px;">
+     flex 1
+     </div> 
+     
+     <div style="background-color: rgb(230, 173, 203);
+     width: 100px;">
+     flex 2
+     </div>
+
+     <div style="background-color: rgb(173, 230, 176);
+     width: 100px;">
+     flex 3
+     </div>
+  </div>
+
+  <div style="
+    margin-top: 30px;
+    height: 60px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;" >
+     <div style="background-color: lightblue;
+     width: 100px;">
+     flex 1
+     </div> 
+     
+     <div style="background-color: rgb(230, 173, 203);
+     width: 100px;">
+     flex 2
+     </div>
+
+     <div style="background-color: rgb(173, 230, 176);
+     width: 100px;">
+     flex 3
+     </div>
+  </div>
+
+  <style>
+
+    
+
+    .left{
+      font-weight: bold;
+      color: white;
+      margin-left: 10px;
+    }
+    .search{
+      width: 350px;
+      height: 18px;
+      border-radius: 10px;
+      padding-left: 12px;
+    }
+    .right{
+      margin-right: 10px;
+      border-radius: 1px;
+      
+    }
+    .download{
+      border-color: white;
+      background-color: rgb(9, 9, 131);
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 3.5px;
+      padding-bottom: 3.5px;
+      margin-right: 0px;
+    }
+
+
+  </style>
+
+  <div style="
+        
+         height: 40px;
+         border-width: 1px;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         border-color: black;
+         border-style: solid;
+         background-color: rgb(9, 9, 131);
+      ">
+      <div class="left"  > Home </div>
+      <div class="mid">
+        <input class="search" type="textbox" placeholder="Search">
+      </div>
+      <div class="right">
+        <button class="download"> download</button>
+      </div>
+
+
+
+  </div>
+  
+
+
+
+</body>
+</html>
